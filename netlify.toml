@@ -1,2 +1,3 @@
 [build]
-    functions = "functions"
+  command = "npm run build"  # Perintah untuk menjalankan build
+  publish = "public"           # Direktori tempat file hasil build akan di-host
