@@ -164,6 +164,7 @@ const ApplicationTile = (props) => {
               <Button
                 variant="contained"
                 color="primary"
+                style={{ width: "24vw"}}
                 className={classes.statusBlock}
                 onClick={() => {
                   fetchRating();
